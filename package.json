@@ -20,7 +20,7 @@
     "@angular/platform-browser-dynamic": "~8.2.13",
     "@angular/router": "~8.2.13",
     "@ng-bootstrap/ng-bootstrap": "^5.1.4",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "cross-spawn": "^7.0.1",
     "jquery": "^3.4.1",
     "ngx-carousel-lib": "^0.1.2",

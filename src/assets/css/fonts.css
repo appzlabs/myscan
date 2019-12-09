@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "DINAlternate-Regular";
+  src: url("../fonts/DINAlternate0.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/DINAlternate0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/DINAlternate0.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/DINAlternate0.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/DINAlternate0.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/DINAlternate0.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/DINAlternate0.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "DINAlternate-Bold";
+  src: url("../fonts/DINAlternateBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/DINAlternateBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/DINAlternateBold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/DINAlternateBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/DINAlternateBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/DINAlternateBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/DINAlternateBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

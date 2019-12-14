@@ -14,6 +14,13 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { SearchComponent } from './search/search.component';
 import { SearchDetailsComponent } from './search-details/search-details.component';
 import { ContentcarouselComponent } from './components/contentcarousel/contentcarousel.component';
+import { PatientComponent } from './patient/patient.component';
+import { PatientDetailsComponent } from './patient-details/patient-details.component';
+import { PatientDownloadReportComponent } from './patient-download-report/patient-download-report.component';
+import { MainComponent } from './main/main.component';
+import { SiteLayoutComponent } from './site-layout/site-layout.component';
+import { PlainLayoutComponent } from './plain-layout/plain-layout.component';
+import { ThanksComponent } from './thanks/thanks.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +32,14 @@ import { ContentcarouselComponent } from './components/contentcarousel/contentca
     CarouselComponent,
     SearchComponent,
     SearchDetailsComponent,
-    ContentcarouselComponent
+    ContentcarouselComponent,
+    PatientComponent,
+    PatientDetailsComponent,
+    PatientDownloadReportComponent,
+    MainComponent,
+    SiteLayoutComponent,
+    PlainLayoutComponent,
+    ThanksComponent
   ],
   imports: [
     NgbModule,

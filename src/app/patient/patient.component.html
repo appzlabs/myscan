@@ -1,0 +1,88 @@
+<div class="maincontent">
+         <div class="primarycontent ">
+            <div class="container">
+              <div class="selectpatient">
+                <ul>
+  <li>
+    <input type="radio" id="f-option" name="selector">
+    <label for="f-option">New Patient</label>
+    
+    <div class="check"></div>
+  </li>
+  
+  <li>
+    <input type="radio" id="s-option" name="selector">
+    <label for="s-option">Existing Patient</label>
+    
+    <div class="check"><div class="inside"></div></div>
+  </li>
+</ul>
+              </div>
+              <div class="row">
+                <div class="col"><h2>Patient Information</h2>
+                 <div class="row">
+                   <div class="col-10">
+                     <form>
+                      <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Are you the Patient?
+                               </label>
+                             </div>
+                               <div class="form-group">   
+                                 <input type="text" class="form-control" placeholder="Name*">
+                               </div>
+                                <div class="form-group">   
+                                 <input type="text" class="form-control" placeholder="Gender*">
+                               </div>
+                                <div class="form-group">   
+                                 <input type="text" class="form-control" placeholder="Date of Birth*">
+                               </div>
+                                <div class="form-group">   
+                                 <input type="text" class="form-control" placeholder="Age">
+                               </div>
+                               <div class="form-group">   
+                                 <input type="text" class="form-control" placeholder="Phone Number*">
+                               </div>
+                                 <div class="form-group">   
+                                <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder="Reason for Second Opinion (Patient History)*"></textarea>
+                               </div>
+                               <div class="form-group">   
+                                  <select class="custom-select">
+                                     <option selected>Body Part (ICD10 Codes)</option>
+                                     <option value="1">R07.9 (Chest pain)</option>
+                                 </select>  
+                               </div>
+                              
+                                
+                             
+                             
+                               
+                               <div class="submit ">
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                               </div>
+
+                             </form>
+                   </div>
+                 </div>
+                </div>
+                <div class="col">
+                  <div class="selectscan">
+                    <h3>Select Scan Type</h3>
+                    <p class="scantype">Mammography ($ 250)</p>
+
+                     <div class="form-group">   
+                             <span class="fileupload"><label for="file-input"><img src="images/icon-fileupload-yellow.png" alt=""> Upload your Scan</label>                                <input id="file-input" type="file" /></span>
+                           </div>
+
+                            <div class="form-group">   
+                             <span class="fileupload"><label for="file-input"><img src="images/icon-fileupload-yellow.png" alt=""> Upload your Report</label>                                <input id="file-input" type="file" /></span>
+                           </div>
+                             <div class="submit ">
+                              <button type="submit" class="btn btn-primary">Next</button>
+                           </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+         </div> <!-- e.o maincontent -->

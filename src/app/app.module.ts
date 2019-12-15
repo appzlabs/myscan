@@ -21,6 +21,7 @@ import { MainComponent } from './main/main.component';
 import { SiteLayoutComponent } from './site-layout/site-layout.component';
 import { PlainLayoutComponent } from './plain-layout/plain-layout.component';
 import { ThanksComponent } from './thanks/thanks.component';
+import { MultiItemCarouselComponent } from './components/multi-item-carousel/multi-item-carousel.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ThanksComponent } from './thanks/thanks.component';
     MainComponent,
     SiteLayoutComponent,
     PlainLayoutComponent,
-    ThanksComponent
+    ThanksComponent,
+    MultiItemCarouselComponent
   ],
   imports: [
     NgbModule,

@@ -17,7 +17,8 @@ const routes: Routes = [
   //{ path: '', component: HomeComponent },
   { path: '', component: SiteLayoutComponent,
         children:[{
-            path: 'createaccount',  component:CreateaccountComponent},
+             path: '', component:HomeComponent},
+            { path: 'createaccount',  component:CreateaccountComponent},
             { path: 'list', component: ListComponent},
             { path: 'price', component: PriceComponent },
             { path: 'search', component: SearchComponent},

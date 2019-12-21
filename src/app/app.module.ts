@@ -46,15 +46,15 @@ import { OwlCarouselMultilistComponent } from './components/owl-carousel-multili
     ThanksComponent,
     //MultiItemCarouselComponent,
     //DemoCarouselMultilistComponent,
-    //OwlCarouselMultilistComponent,
-    //OwlModule
+    OwlCarouselMultilistComponent    
   ],
   imports: [
     NgbModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]

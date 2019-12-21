@@ -21,7 +21,7 @@ const routes: Routes = [
             { path: 'createaccount',  component:CreateaccountComponent},
             { path: 'list', component: ListComponent},
             { path: 'price', component: PriceComponent },
-            { path: 'search', component: SearchComponent},
+            
             
         ]
   },
@@ -33,6 +33,7 @@ const routes: Routes = [
             { path: 'patient-details', component: PatientDetailsComponent},
             { path: 'patient-download-report', component: PatientDownloadReportComponent},
             { path: 'search-details', component: SearchDetailsComponent},            
+            { path: 'search', component: SearchComponent},
         ]
     },
   { path: 'thanks', component: ThanksComponent } 

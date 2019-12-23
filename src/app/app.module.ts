@@ -22,8 +22,8 @@ import { MainComponent } from './main/main.component';
 import { SiteLayoutComponent } from './site-layout/site-layout.component';
 import { PlainLayoutComponent } from './plain-layout/plain-layout.component';
 import { ThanksComponent } from './thanks/thanks.component';
-import { MultiItemCarouselComponent } from './components/multi-item-carousel/multi-item-carousel.component';
-import { DemoCarouselMultilistComponent } from './components/demo-carousel-multilist/demo-carousel-multilist.component';
+//import { MultiItemCarouselComponent } from './components/multi-item-carousel/multi-item-carousel.component';
+//import { DemoCarouselMultilistComponent } from './components/demo-carousel-multilist/demo-carousel-multilist.component';
 import { OwlCarouselMultilistComponent } from './components/owl-carousel-multilist/owl-carousel-multilist.component';
 
 @NgModule({

@@ -1,12 +1,24 @@
 <ngb-carousel *ngIf="all_events">
-  <ng-template ngbSlide  [ngClass]="slideitem">
-    <div class="carouselblock col-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let event of all_events" role=list>
-      <img src="event.img" alt="">
-      <h3>{{ event.event }}</h3>
-      <h4>{{ event.event }}</h4>
-      <p>Fellowship in  Musculoskeletal
-Radiology, Hospital for Special
-Surgery, NY. <a href="#">Know more</a></p>
+  <ng-template ngbSlide  [ngClass]="slideitem" *ngFor="let event of all_events">
+    <div class="details carouselblock">
+       <div class="row row-eq-height no-gutters">
+          <div class="col-3">
+             <div class="info">
+                        <img [src]="event.img" alt="">
+                        <h3>{{ event.event }}</h3>
+                        <h4>{{ event.eventSubHead }}</h4>
+                        <p>{{ event.eventDescription }} <a href="#">Know more</a></p>
+                      </div>
+          </div>
+          <div class="col-9">
+            <div class="detailsexpanded">
+              <p ><span class="label">Education</span></p>
+              <p ><span class="label">Affiliations</span></p>
+              <p><span class="label">Board Certification</span ></p>
+               <p><span class="label">Awards and Publications</span></p>
+            </div>
+          </div>
+        </div>
     </div>
   </ng-template>
 </ngb-carousel>

@@ -29,7 +29,6 @@ export class CarouselComponent implements OnInit {
        ];
 
   
-
   current_events =  this.event_list;
   
 

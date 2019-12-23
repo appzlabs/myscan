@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./site-layout.component.sass']
 })
 export class SiteLayoutComponent implements OnInit {
-
+	loc:any;
   constructor() { }
 
   ngOnInit() {
